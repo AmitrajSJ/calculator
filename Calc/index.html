@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head> <title> Calculator </title> 
+        <link rel="stylesheet" type="text/css" href="CSS/style.css">
+        </head>
+<body>
+    <header><h1 style="text-align:center; font-size:40px;">Calculator</h1></header>
+	<div class="textfield" style="border-top-left-radius:15px; border-top-right-radius:15px;">
+	<input type="text" id="textsub" style="color:white;" readonly><br>
+    <input type="text" value="0" id="textmain" style="color:white;"><br>
+	</div>
+<div class="buttons" style="border-bottom-left-radius:15px; border-bottom-right-radius:15px;">
+	<button id="AC" onClick="buttonclick(this.id);"style="background-color:#a5a5a5;
+	border-radius:50%;
+	text-decoration:none;
+	padding: 10px;
+	font-size:25px; color:black;">AC</button>
+    <button id="pom" onClick="buttonclick(this.id);"style="background-color:#a5a5a5;
+	border-radius:50%;
+	text-decoration:none;
+	padding: 10px;
+	font-size:25px;color:black;">+/-</button>
+    <button id="%" onClick="buttonclick(this.id);"style="background-color:#a5a5a5;
+	border-radius:50%;
+	text-decoration:none;
+	padding: 10px 13px;
+	font-size:25px; color:black;">%</button>
+	<button id="/" onClick="buttonclick(this.id);"style="background-color:#fe9f0a;">÷</button><br>
+    <button id="7" onClick="buttonclick(this.id);">7</button>
+    <button id="8" onClick="buttonclick(this.id);">8</button>
+    <button id="9" onClick="buttonclick(this.id);">9</button>
+	<button id="*" onClick="buttonclick(this.id);"style="font-size:26px;background-color:#fe9f0a;">X</button><br>
+    <button id="4" onClick="buttonclick(this.id);">4</button>
+    <button id="5" onClick="buttonclick(this.id);">5</button>
+    <button id="6" onClick="buttonclick(this.id);">6</button>
+	<button id="-" onClick="buttonclick(this.id);"style="padding: 8px 21px; background-color:#fe9f0a;">-</button><br>
+    <button id="1" onClick="buttonclick(this.id);">1</button>
+    <button id="2" onClick="buttonclick(this.id);">2</button>
+    <button id="3" onClick="buttonclick(this.id);">3</button>
+	<button id="+" onClick="buttonclick(this.id);"style="background-color:#fe9f0a;">+</button><br>
+    <button id="0" onClick="buttonclick(this.id);" style="text-align: left;border-radius: 55px; padding:8px 18px; width:133px;">0</button>
+    <button id="." onClick="buttonclick(this.id);"style="padding: 8px 22px;">.</button>
+	<button id="="onClick="buttonclick(this.id);"style="background-color:#fe9f0a;">=</button>
+</div>
+</body>
+<script src="Script/script.js"> </script>
+</html>
